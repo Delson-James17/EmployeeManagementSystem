@@ -1,0 +1,63 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background: #FEFAE0;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.edit {
+    background: #95BDFF;
+    color:#fff;
+    padding:5px 10px;
+    margin:3px;
+    text-decoration:none;
+    border-radius:5px;
+}
+h1.title{
+    text-align:center;
+    font-size:50px;
+}
+.det {
+    background: #E384FF;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 3px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.del {
+    background: #EB455F;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 3px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.create {
+    background: #2B3467;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 3px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.createtable {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    justify-content: center;
+}
